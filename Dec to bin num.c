@@ -15,6 +15,8 @@ int main()
         for(i=i-1;i>=0;i--){
             printf("%d",binry[i]);
         }
+        
+        // printing the anwser with newline
     printf("\n");
     }
     return 0;
