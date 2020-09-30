@@ -1,6 +1,11 @@
+//fibonacci of 1000 digit number
+//by Labib
+//
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <iostream.h>
+//void function intialization 
 void Add(char a[],char b[],char *result)
 {
     int i,carry=0,digitSum;
@@ -21,6 +26,8 @@ void Add(char a[],char b[],char *result)
         result[i++]=carry+'0';
     result[i]='\0';
 }
+
+//Main function
 int main()
 {
     char n1[1001]="0";
